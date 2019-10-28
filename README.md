@@ -4,7 +4,7 @@ The current project contains the following structure
 
 ![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.PNG)
 
-## NuGet
+### NuGet
 
 This project uses some third-party assets with a license that requires attribution:
 
