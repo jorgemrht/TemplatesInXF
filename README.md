@@ -4,6 +4,13 @@ The current project contains the following structure
 
 ![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.PNG)
 
+## NuGet
+
+This project uses some third-party assets with a license that requires attribution:
+
+- [Newtonsoft](https://www.newtonsoft.com/json) => .NET Standard Libraries
+- [Reactive ui](https://github.com/reactiveui/reactiveui#net-foundation) => .NET Standard Libraries
+
 ## How to use the template
 
 1. Download the file [TemplatesInXF](https://github.com/jorgemht/TemplatesInXF/raw/master/Resources/TemplatesInXF.zip)
