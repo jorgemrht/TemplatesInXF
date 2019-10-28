@@ -3,6 +3,7 @@
     using Newtonsoft.Json;
     using Newtonsoft.Json.Serialization;
     using System;
+    using System.Diagnostics;
     using Xamarin.Essentials;
 
     public class PreferencesHelpers
@@ -19,7 +20,7 @@
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Error deserializing settings value: {ex}");
+                Debug.WriteLine($"Error deserializing settings value: {ex}");
             }
 
             return result;
@@ -37,7 +38,7 @@
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Error serializing settings value: {ex}");
+                Debug.WriteLine($"Error serializing settings value: {ex}");
             }
         }
 

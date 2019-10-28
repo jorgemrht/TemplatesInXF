@@ -1,7 +1,7 @@
-﻿using Splat;
-
-namespace TemplatesInXF.ViewModels.Base
+﻿namespace TemplatesInXF.ViewModels.Base
 {
+    using Splat;
+
     public class AppBootstrapper : IEnableLogger
     {
         public static AppBootstrapper Instance { get; } = new AppBootstrapper();
