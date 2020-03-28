@@ -8,7 +8,7 @@ This project was created from a video by Jorge Diego Crespo. After the creation 
 
 The current project contains the following structure
 
-![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.PNG)
+![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.JPG)
 
 ### NuGet
 
