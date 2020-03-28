@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<base:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                      xmlns:base="clr-namespace:TemplatesInXF.Base"
+                      xmlns:features="clr-namespace:TemplatesInXF.Features"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      x:Class="TemplatesInXF.Features.OnboardingView"
+                      x:TypeArguments="features:OnboardingViewModel">
+    <StackLayout>
+        
+    </StackLayout>
+</base:BaseContentPage>

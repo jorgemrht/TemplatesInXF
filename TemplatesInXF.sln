@@ -7,13 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesInXF.Android", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesInXF.iOS", "TemplatesInXF\TemplatesInXF.iOS\TemplatesInXF.iOS.csproj", "{02E85876-47F2-40B2-ADE7-BEC942688049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesInXF", "TemplatesInXF\TemplatesInXF\TemplatesInXF.csproj", "{BBC399E5-E382-477A-AD61-7CC442235A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatesInXF", "TemplatesInXF\TemplatesInXF\TemplatesInXF.csproj", "{BBC399E5-E382-477A-AD61-7CC442235A24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|iPhone = Debug|iPhone
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		MOCK|Any CPU = MOCK|Any CPU
+		MOCK|iPhone = MOCK|iPhone
+		MOCK|iPhoneSimulator = MOCK|iPhoneSimulator
 		Release|Any CPU = Release|Any CPU
 		Release|iPhone = Release|iPhone
 		Release|iPhoneSimulator = Release|iPhoneSimulator
@@ -28,6 +31,15 @@ Global
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|Any CPU.ActiveCfg = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|Any CPU.Build.0 = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|Any CPU.Deploy.0 = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhone.ActiveCfg = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhone.Build.0 = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhone.Deploy.0 = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhoneSimulator.ActiveCfg = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhoneSimulator.Build.0 = MOCK|Any CPU
+		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.MOCK|iPhoneSimulator.Deploy.0 = MOCK|Any CPU
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C23CF86B-AE46-43A9-9577-171B1090CCEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
@@ -46,6 +58,12 @@ Global
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|Any CPU.ActiveCfg = MOCK|iPhoneSimulator
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|Any CPU.Build.0 = MOCK|iPhoneSimulator
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|iPhone.ActiveCfg = MOCK|iPhone
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|iPhone.Build.0 = MOCK|iPhone
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|iPhoneSimulator.ActiveCfg = MOCK|iPhoneSimulator
+		{02E85876-47F2-40B2-ADE7-BEC942688049}.MOCK|iPhoneSimulator.Build.0 = MOCK|iPhoneSimulator
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Release|Any CPU.Build.0 = Release|iPhone
 		{02E85876-47F2-40B2-ADE7-BEC942688049}.Release|Any CPU.Deploy.0 = Release|iPhone
@@ -64,6 +82,12 @@ Global
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|Any CPU.ActiveCfg = MOCK|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|Any CPU.Build.0 = MOCK|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|iPhone.ActiveCfg = MOCK|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|iPhone.Build.0 = MOCK|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|iPhoneSimulator.ActiveCfg = MOCK|Any CPU
+		{BBC399E5-E382-477A-AD61-7CC442235A24}.MOCK|iPhoneSimulator.Build.0 = MOCK|Any CPU
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BBC399E5-E382-477A-AD61-7CC442235A24}.Release|Any CPU.Deploy.0 = Release|Any CPU

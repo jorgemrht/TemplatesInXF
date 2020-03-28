@@ -1,21 +1,50 @@
 ﻿namespace TemplatesInXF
 {
-    using TemplatesInXF.Views;
+    using TemplatesInXF.Features;
+    using TemplatesInXF.Services;
     using Xamarin.Forms;
 
     public partial class App : Application
     {
+        private readonly ICacheService cacheService;
+        private readonly ILogService logService;
+        private readonly IExceptionHandlersService exceptionHandlersService;
+
         public App()
         {
+            cacheService = DependencyService.Get<ICacheService>();
+            logService = DependencyService.Get<ILogService>();
+            exceptionHandlersService = DependencyService.Get<IExceptionHandlersService>();
+
+            InitLocalization();
             InitializeComponent();
 
-            MainPage = new MainView();
+            NavigationPage navigationPage = new NavigationPage(new OnboardingView() { ViewModel = new OnboardingViewModel() });
+            NavigationPage.SetHasNavigationBar(navigationPage.CurrentPage, false);
+            MainPage = navigationPage;
         }
 
-        protected override void OnStart() { }
+        protected override void OnStart()
+        {
+            logService.Start();
+            cacheService.Start();
 
-        protected override void OnSleep() { }
+            #if DEBUG || MOCK
+            exceptionHandlersService.ShowExceptionFile();
+            #endif
+        }
 
-        protected override void OnResume() { }
+        protected override void OnSleep()
+        {
+        }
+
+        protected override void OnResume()
+        {
+        }
+
+        private void InitLocalization()
+        {
+        }
     }
 }
+
