@@ -4,6 +4,10 @@ The current project contains the following structure
 
 ![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.PNG)
 
+**Base on https://github.com/jorgediegocrespo/BaseXamarin by Jorge Diego Crespo**
+
+
+
 ### NuGet
 
 This project uses some third-party assets with a license that requires attribution:
@@ -22,3 +26,7 @@ This project uses some third-party assets with a license that requires attributi
 ## How to create your own template or modify the current one
 
 To create your own template you can follow the following [video](https://www.youtube.com/watch?v=MeeGr577rsQ) or you can create your template using the repository template as a base, you just have to download the repository and follow the [video](https://www.youtube.com/watch?v=MeeGr577rsQ)
+
+## How to: Create and edit configurations
+
+https://docs.microsoft.com/en-us/visualstudio/ide/how-to-create-and-edit-configurations?view=vs-2019
