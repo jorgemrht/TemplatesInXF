@@ -1,12 +1,14 @@
+## Thanks Jorge Diego Crespo
+
+This project was created from a video by Jorge Diego Crespo. After the creation of this repository, he published the structure that he carries out in his projects in a talk in Valencia.
+
+**This repository is based (much of it) on https://github.com/jorgediegocrespo/BaseXamarin**
+
 ## Current project
 
 The current project contains the following structure
 
 ![The current project contains the following structure](https://github.com/jorgemht/TemplatesInXF/blob/master/Resources/Current%20project.PNG)
-
-**Base on https://github.com/jorgediegocrespo/BaseXamarin by Jorge Diego Crespo**
-
-
 
 ### NuGet
 
