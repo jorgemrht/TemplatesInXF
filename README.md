@@ -14,8 +14,38 @@ The current project contains the following structure
 
 This project uses some third-party assets with a license that requires attribution:
 
-- [Newtonsoft](https://www.newtonsoft.com/json) => .NET Standard Libraries
-- [Reactive ui](https://github.com/reactiveui/reactiveui#net-foundation) => .NET Standard Libraries
+- [Akavache](https://github.com/reactiveui/reactiveui#net-foundation)
+- [I18NPortable](https://github.com/reactiveui/reactiveui#net-foundation)
+- [Microsoft AppCenter Analytics](https://github.com/reactiveui/reactiveui#net-foundation)
+- [Microsoft AppCenter Crashes](https://github.com/reactiveui/reactiveui#net-foundation)
+- [Newtonsoft Json](https://github.com/reactiveui/reactiveui#net-foundation)
+- [Polly](https://github.com/reactiveui/reactiveui#net-foundation)
+- [ReactiveUI.Events.XamForms](https://github.com/reactiveui/reactiveui#net-foundation)
+- [ReactiveUI.Fody](https://github.com/reactiveui/reactiveui#net-foundation)
+- [ReactiveUI.XamForms](https://github.com/reactiveui/reactiveui#net-foundation)
+- [Refit](https://github.com/reactiveui/reactiveui#net-foundation)
+
+  <ItemGroup>
+    <PackageReference Include="" Version="7.1.0.440" />
+    <PackageReference Include="Esri.ArcGISRuntime.Toolkit.Xamarin.Forms" Version="100.7.1" />
+    <PackageReference Include="Esri.ArcGISRuntime.Xamarin.Forms" Version="100.7.0" />
+    <PackageReference Include="I18NPortable" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
+    <PackageReference Include="Plugin.ValidationRules" Version="1.1.0" />
+    <PackageReference Include="refit" Version="5.0.23" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
+    <PackageReference Include="Xamanimation" Version="1.3.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.3.7" />
+  </ItemGroup>
+
 
 ## How to use the template
 
