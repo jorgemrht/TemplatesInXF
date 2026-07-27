@@ -62,3 +62,4 @@ To create your own template you can follow the following [video](https://www.you
 ## How to: Create and edit configurations
 
 https://docs.microsoft.com/en-us/visualstudio/ide/how-to-create-and-edit-configurations?view=vs-2019
+> This repository is deprecated and is no longer maintained.
